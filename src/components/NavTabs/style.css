@@ -1,0 +1,21 @@
+header {
+    height: 15%;
+    border-bottom: 5px solid black;
+}
+h2 {
+    display: inline-block;
+}
+ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-right: 2rem;
+}
+li {
+    padding-left: 3rem;
+    display: inline
+   
+}
+.active {
+    color: red;
+}
