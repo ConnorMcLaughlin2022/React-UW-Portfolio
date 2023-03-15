@@ -20,7 +20,7 @@ export const Portfolio = () => {
     {
       "image": jolly,
       "title": "Jolly-CO-OP",
-      "linkGithub": "/",
+      "linkGithub": "https://github.com/CaldwellDerek/jolly-co-op-frontend.git",
       "linkSite": "https://github.com/CaldwellDerek/jolly-co-op-frontend.git"
     },
     {

@@ -10,17 +10,19 @@
     margin: 15px;
     align-items: center;
     text-align: center;
+    
 
 }
-.resumeButton{
-    
-}
+
 
 .resume-list{
-    width: 50%;
-    float: left;
+    /* width: 50%; */
+    height: fit-content;
+    float: right;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    
 }
 div h4{
     display: flex;
@@ -36,4 +38,28 @@ div h4{
     background-color: #434343;
     color: #b95953;
     
+}
+
+.ul-resume-front{
+   
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+.ul-resume-back{
+   
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.back-list{
+    margin-top: 20px;
+ 
+    width: auto;
+    list-style:lower-greek;
+ 
 }

@@ -21,37 +21,37 @@ export const Resume = () => {
 
   return (
     <div className='resume-box'>
-      <div>
-        <h3 className='you-can'>You may download my resume here:</h3>
+      <div className='you-can'>
+        <h3 >You may download my resume here:</h3>
         <button className='resumeButton' onClick={resumeBtn}>Resume</button>
       </div>
 
       <div className='resume-list'>
-      <div className='front-list'>
 
-        <h4>Front-end Proficiencies</h4>
-        <ul className='ul-resume front-end'>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>responsive design</li>
-          <li>React</li>
-          <li>Bootstrap</li>
-        </ul>
-      </div>
-      <div className='back-list'>
-
-        <h4>Back-end Proficiencies</h4>
-        <ul className='ul-resume back-end'>
-          <li>APIs</li>
-          <li>Node</li>
-          <li>Express</li>
-          <li>MySQL, Sequelize</li>
-          <li>REST</li>
-          <li>GraphQL</li>
-        </ul>
-      </div>
+        <div className='front-list'>
+          <h4>Front-end Proficiencies</h4>
+          <ul className='ul-resume-front'>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>responsive design</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <br/>
+        <div className='back-list'>
+          <h4>Back-end Proficiencies</h4>
+          <ul className='ul-resume-back'>
+            <li>APIs</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>MySQL, Sequelize</li>
+            <li>REST</li>
+            <li>GraphQL</li>
+          </ul>
+        </div>
       </div>
     </div>
   )

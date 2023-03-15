@@ -1,0 +1,10 @@
+.contact-box{
+    background-color: #e3d8d1e6;
+    height: 100vh;
+ 
+    display: flex;
+    margin-top: 10px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
