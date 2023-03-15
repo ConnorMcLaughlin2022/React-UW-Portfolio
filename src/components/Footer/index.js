@@ -7,7 +7,7 @@ export const Footer = () => {
     <div className='footer'>
         <ul className='footer-ul'>
             <li className='footer-li'>
-               <a className='footer-a' href="https://https://github.com/ConnorMcLaughlin2022">Github</a> 
+               <a className='footer-a' href="https://github.com/ConnorMcLaughlin2022">Github</a> 
             </li>
             <li className='footer-li'>
                <a className='footer-a' href="https://www.linkedin.com">Linkedin</a> 

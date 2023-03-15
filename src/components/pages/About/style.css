@@ -1,0 +1,29 @@
+.about-page-content{
+    margin-top: 15vh;
+    display: flex;
+
+}
+.about-page{
+    background-color: #e3d8d1e6;
+    height: 100vh;
+    display: flex;
+
+}
+.about-page h1{
+    padding-top: 5vh;
+    display: inline-block;
+    
+}
+
+.headshot {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    float: left;
+    
+
+}
+.about-text {
+    margin: 5vw;
+   
+    float: right;
+}

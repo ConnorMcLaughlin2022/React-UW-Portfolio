@@ -1,0 +1,39 @@
+.resume-box{
+    background-color: #e3d8d1e6;
+    height: 100vh;
+    display: flex;
+    margin-top: 10px;
+}
+.you-can{
+    width: 30%;
+    float: left;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+
+}
+.resumeButton{
+    
+}
+
+.resume-list{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    justify-content: space-around;
+}
+div h4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 30px;
+    width: 50%;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    background-color: #434343;
+    color: #b95953;
+    
+}

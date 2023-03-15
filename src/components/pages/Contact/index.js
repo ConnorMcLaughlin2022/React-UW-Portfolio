@@ -11,8 +11,6 @@ export const Contact = ({
   handleLoseFocus,
   blank
 }) => {
-  
-
   return (
     <div className="contact-box">
       <h1 className="contact-form-box contactId">Contact me:</h1>

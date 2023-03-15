@@ -1,0 +1,24 @@
+.portfolio-page{
+    background: #e3d8d1e6;
+    height: 150vh;
+  
+   
+}
+.portfolio-title {
+    margin-top:10px;
+    text-align: center;
+
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+    background-color: #434343;
+    height: 80%;
+}

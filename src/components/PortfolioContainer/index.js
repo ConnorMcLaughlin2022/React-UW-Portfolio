@@ -5,7 +5,6 @@ import About from '../pages/About';
 import {Portfolio} from '../pages/Portfolio';
 import {Resume} from '../pages/Resume/index.js';
 import {Contact} from '../pages/Contact';
-import {Cards} from '../Cards'
 import { validateEmail } from "../../utils/helpers";
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -71,7 +70,6 @@ const handleFormSubmit = (e) => {
   console.log("Submitted")
   
 }
-
   const renderPage = () => {
     if (currentPage === "About") {
       return <About />; 
