@@ -25,5 +25,5 @@ The React Portfolio I have build is a single page application that uses react to
 
 ## URL & Site
 
-Site:
-Url:
+Site:https://connormclaughlin2022.github.io/REACT-Portfolio-2/
+Url:https://github.com/ConnorMcLaughlin2022/REACT-Portfolio-2.git
