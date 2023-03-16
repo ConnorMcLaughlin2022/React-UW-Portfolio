@@ -18,12 +18,19 @@
 .headshot {
     margin-left: 10vw;
     margin-top: 5vh;
+    width: fit-content;
     float: left;
     
 
 }
 .about-text {
     margin: 5vw;
+  
+    width: 60vw;
    
     float: right;
+}
+.About-title{
+    width: 20vw;
+    padding-left: 10px;
 }

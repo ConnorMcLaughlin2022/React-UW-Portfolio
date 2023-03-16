@@ -11,8 +11,8 @@ const styleCard = {
 export default function About() {
   return (
     <div className='about-page'>
-        <h1 id="About-title">About Me</h1>
       <div className='about-page-content'>
+        <h1 id="About-title">About:</h1>
         <div className='headshot'>
           <img style={styleCard} src={Headshot} alt="Connor McLaughlin"></img>
         </div>
